@@ -2,6 +2,7 @@ html {
   margin: 0;
   padding: 0;
   display: block;
+  background-color: #000;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   margin: 0 auto;
   max-width: 940px;
   padding: 0 10px;
+  height: auto;
 }
 
 .header {
@@ -36,7 +38,7 @@ body {
 .header h1 {
   color: #fff;
   line-height: 100px;
-  font-size: 80px;
+  font-size: 10vw;
   margin-top: 0px;
   letter-spacing: 8px;
   margin-bottom: 80px;
@@ -114,7 +116,7 @@ a {
 
 .main .container {
   color: #a0a0d7;
-  height: 350px;
+  max-height: 350px;
   margin: 115px auto;
   overflow: auto;
   font-size: 18px;
@@ -131,7 +133,8 @@ a {
   margin: 0 auto;
   margin-right: 50px;
   border: 2px solid #a0a0d7;
-  width: 340px;
+  max-width: 35%;
+  height: auto;
 }
 
 .main .container ul li {
@@ -169,6 +172,7 @@ a {
   background: #000;
 }
 
+/*
 @media (min-width: 850px) {
   .header h1 {
     font-size: 120px;
@@ -181,7 +185,7 @@ a {
     line-height: 65px;
   }
 }
-
+*/
 
 .footer {
   background: #000;
